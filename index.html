@@ -63,12 +63,62 @@
         </div>
     </header>
 
+    <section id="projects" class="py-24 bg-slate-900/50">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+                <div>
+                    <h2 class="text-3xl font-bold text-white mb-2">Current Projects</h2>
+                    <p class="text-slate-400">The research that challenges me on a daily basis.</p>
+                </div>
+                <!-- <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Painter%2C%20Connor%20year%3A2023-" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-medium flex items-center gap-2 transition text-sm uppercase tracking-wider">
+                    Full Bibliography on ADS
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a> -->
+            </div>
+
+            <div class="space-y-8">
+                <div class="group p-8 bg-slate-900 border border-slate-800 rounded-2xl hover:bg-slate-800/50 transition-all">
+                    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+                        
+                        <div class="md:col-span-8 flex flex-col gap-4">
+                            <span class="text-xs font-mono text-indigo-400 uppercase tracking-widest">Target Submission Date: May 2026</span>
+                            <h3 class="text-xl font-bold text-white group-hover:text-indigo-300 transition">High-redshift Star Clusters in CampFIRE</h3>
+                            <p class="text-slate-400 leading-relaxed text-sm">
+                                I analyze the BonFIRE + CampFIRE suite of cosmological simulations for star clusters at high redshift in a representative sample of galaxies with a wide range of stellar masses.
+                                I present a new cluster-finding algorithm applicable to any particle-based simulation.
+                            </p>
+                            <!-- <div class="flex flex-wrap gap-4 pt-2">
+                                <a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.533.2454P/abstract" class="text-xs bg-slate-800 hover:bg-indigo-600 text-slate-300 hover:text-white px-4 py-2 rounded-md transition flex items-center gap-2">
+                                    NASA ADS
+                                </a>
+                                <a href="https://arxiv.org/abs/2402.16945" class="text-xs bg-slate-800 hover:bg-indigo-600 text-slate-300 hover:text-white px-4 py-2 rounded-md transition flex items-center gap-2">
+                                    arXiv:2402.16945
+                                </a>
+                            </div> -->
+                        </div>
+    
+                        <div class="md:col-span-4 space-y-3 pt-1">
+                            <h4 class="text-sm font-semibold text-slate-300 uppercase tracking-wider">Collaborators</h4>
+                            <div class="grid grid-cols-4 gap-3">
+                                <img src="headshot_ConnorPainter.jpg" alt="Collaborator 1" class="w-12 h-12 rounded-full object-cover border-2 border-slate-700 hover:border-indigo-400 transition" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ic2xhdGUiPjxjaXJjbGUgY3g9IjEyIiBjeT0iOSIgcj0iNCIgLz48cGF0aCBkPSJNMTIgMTZjLTQuNCAwLTggMy42LTggOHg4YzAtNC40IDMuNi04IDgtOHoiIC8+PC9zdmc+'">
+                                <img src="headshot_JennaSamuel.jpg" alt="Collaborator 2" class="w-12 h-12 rounded-full object-cover border-2 border-slate-700 hover:border-indigo-400 transition" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ic2xhdGUiPjxjaXJjbGUgY3g9IjEyIiBjeT0iOSIgcj0iNCIgLz48cGF0aCBkPSJNMTIgMTZjLTQuNCAwLTggMy42LTggOHg4YzAtNC40IDMuNi04IDgtOHoiIC8+PC9zdmc+'">
+                                <img src="headshot_MikeBoylanKolchin.jpg" alt="Collaborator 3" class="w-12 h-12 rounded-full object-cover border-2 border-slate-700 hover:border-indigo-400 transition" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ic2xhdGUiPjxjaXJjbGUgY3g9IjEyIiBjeT0iOSIgcj0iNCIgLz48cGF0aCBkPSJNMTIgMTZjLTQuNCAwLTggMy42LTggOHg4YzAtNC40IDMuNi04IDgtOHoiIC8+PC9zdmc+'">
+                                <img src="#" alt="Collaborator 4" class="w-12 h-12 rounded-full object-cover border-2 border-slate-700 hover:border-indigo-400 transition" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ic2xhdGUiPjxjaXJjbGUgY3g9IjEyIiBjeT0iOSIgcj0iNCIgLz48cGF0aCBkPSJNMTIgMTZjLTQuNCAwLTggMy42LTggOHg4YzAtNC40IDMuNi04IDgtOHoiIC8+PC9zdmc+'">
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <section id="publications" class="py-24 bg-slate-900/50">
         <div class="max-w-5xl mx-auto px-6">
             <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
                 <div>
-                    <h2 class="text-3xl font-bold text-white mb-2">Featured Publications</h2>
-                    <p class="text-slate-400">Key research and peer-reviewed articles.</p>
+                    <h2 class="text-3xl font-bold text-white mb-2">Past Research</h2>
+                    <p class="text-slate-400">Publications from research projects I no longer pursue.</p>
                 </div>
                 <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Painter%2C%20Connor%20year%3A2023-" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-medium flex items-center gap-2 transition text-sm uppercase tracking-wider">
                     Full Bibliography on ADS
